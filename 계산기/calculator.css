@@ -1,0 +1,33 @@
+.calculator-space {
+    position: absolute;
+    width: 45%;
+    height: 79%;
+    background-color: darkgray;
+    margin-top: 30px;
+    margin-left: 410px;
+    border-radius: 12%;
+}
+
+#result {
+    text-align: right;
+    margin-left: 50px;
+    width: 550px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 2%;
+    border: solid 2px black;
+    font-size: 50px;
+}
+
+.insert {
+    width: 100%;
+    height: 400px;
+    margin-top: 15px;
+    border: solid 1px black;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+td:hover {
+    background-color: darkgray;
+}

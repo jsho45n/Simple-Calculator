@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js"></script>
+</head>
+
+<body style="background-color: gray;">
+    <h1 style="text-align: center">계산기</h1>
+    <hr>
+    <div class="calculator-space">
+        <form class="calculate-result">
+            <input id="result" type="text">
+        </form>
+        <form class="calculate-insert">
+            <table class="insert" border="1">
+                <tr>
+                    <td onclick="addNumber('+')">+</td>
+                    <td onclick="addNumber('-')">-</td>
+                    <td onclick="addNumber('*')">*</td>
+                </tr>
+                <tr>
+                    <td onclick="addNumber('7')">7</td>
+                    <td onclick="addNumber('8')">8</td>
+                    <td onclick="addNumber('9')">9</td>
+                </tr>
+                <tr>
+                    <td onclick="addNumber('4')">4</td>
+                    <td onclick="addNumber('5')">5</td>
+                    <td onclick="addNumber('6')">6</td>
+                </tr>
+                <tr>
+                    <td onclick="addNumber('1')">1</td>
+                    <td onclick="addNumber('2')">2</td>
+                    <td onclick="addNumber('3')">3</td>
+                </tr>
+                <tr>
+                    <td onclick="addNumber('/')">/</td>
+                    <td onclick="addNumber('0')">0</td>
+                    <td onclick="calculate()">=</td>
+                </tr>
+                <tr>
+                    <td colsan="3" onclick="reset()">AC</td>
+                    <td onclick="addNumber('.')">.</td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
